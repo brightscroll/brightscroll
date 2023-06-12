@@ -1,0 +1,9 @@
+body {
+    font-family: verdana;
+    background: black;
+    color: white;
+}
+
+a:visited {
+    color: #CCC;
+}
