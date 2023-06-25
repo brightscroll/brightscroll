@@ -59,7 +59,7 @@ verse > number {
 }
 heading {
   font-size:2.5em; 
-  line-height: 1em;
+  line-height: 1.5em;
   font-weight:bold;
   display:block;
   color:#444;
