@@ -1,0 +1,12 @@
+body {
+    font-family: verdana;
+    /* background: black; */
+    /* color: white; */
+}
+
+a {
+    color: #00A;
+}
+a:visited {
+    color: #008;
+}

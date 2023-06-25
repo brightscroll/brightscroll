@@ -1,0 +1,105 @@
+@font-face
+{
+  font-family: BibleFont;
+  src: url('../lib/fonts/IM Fell Double Pica/FeDPrm2.ttf');
+}
+
+
+scripture *{
+  text-indent: 0em;
+  padding:0;
+  margin:0;
+  /*vertical-align:text-top;*/
+  vertical-align:top;
+  /*line-height:0;*/
+}
+scripture{
+  line-height:3.5em;
+  font-family:Poly, serif;
+  font-size:.6em;
+  padding:5em 4em 3em 4em;
+  display:block;
+  color:#444;
+  /*text-shadow: 1px 1px 1px rgba(0,0,0,.1);*/
+}
+book{
+  clear:both;
+  margin-bottom:1em;
+}
+book+book>title{
+  margin-top:.75em;
+}
+title{
+  font-size: 5em;
+  margin-bottom:.75em;
+  display: block;
+  color:#222;
+  line-height:1em;
+}
+chapter{
+ display: block;
+ margin-bottom:1em;
+}
+chapter > number {
+  float:left;
+  margin:0 .5em .5em 0;
+  color:#444;
+  font-size:5em;
+  line-height:.5em;
+}
+verse{
+  font-size:2em; 
+  line-height:1.5em;
+}
+verse > number {
+  color:#444;
+  font-size:.6em; 
+  line-height:1em;
+  position:relative;
+}
+heading {
+  font-size:2.5em; 
+  line-height: 1em;
+  font-weight:bold;
+  display:block;
+  color:#444;
+  margin-bottom:.5em;
+}
+scripture p{
+  text-indent: 2em;
+  margin-top:2em;
+  /*display:block;*/
+  /*white-space: wrap;*/
+}
+number + p{
+  text-indent: 0;
+  /*margin-top:3em;*/
+}
+p + heading{
+  /*text-indent: 0;*/
+  margin-top:1.5em;
+}
+t{
+  font-style:italic;
+}
+d{
+  color:#433;
+}
+red d{
+  color:#800;
+}
+yeshua{
+  color:#A00;
+}
+column{
+  width:46%;
+  display:block;
+  float:left;
+  padding:0 2%;
+  height:100%;
+}
+.clearfix{
+  clear:both;
+  line-height: 0;
+  font-size:0;
+}
