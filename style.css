@@ -4,6 +4,9 @@ body {
     color: white;
 }
 
+a {
+    color: #fff;
+}
 a:visited {
     color: #CCC;
 }
